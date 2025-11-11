@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: myapp-container
-          image: <dockerhub_login>/<app_name>:v1
+          image: idealcod/kubeapp:v1
           ports:
             - containerPort: 8080
